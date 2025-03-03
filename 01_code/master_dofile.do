@@ -6,21 +6,44 @@
 	******************************************************************
 		clear all 
 		* User Number:
-
+		
 		* Jaweria       1
+		*
+		*
+		*
 
 		*Set this value to the user currently using this file
 		global user  1
 
 		*Set this value to 1 if you want to install the packages
 		global firsttime 0
-
 		
 		if $user == 1 {
-
-			global dropbox		"D:/Dropbox/PIDE/CT and IPV Project"
 			global github		"E:/GitHub/ipv_experiment"
 		}
+/*
+		if $user == 1 {
+			global github	
+		}
+
+		if $user == 2 {
+		   global github	
+		}
+		
+		if $user == 3 {
+		   global github	
+		}
+
+		if $user == 4 {
+			global github	
+		}
+
+		if $user == 5 {
+			global github		
+		}
+*/
+		
+		
 		
 		if $firsttime==1 {
 		
