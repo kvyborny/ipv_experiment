@@ -67,8 +67,8 @@
 		*	do file sequence
 		local 01_variable_cleaning		 			1								// cleans variables in use
 		local 02_variable_generation	 			1								// generates new variables
-		local 03_table								1								// constructs table shown in measurement note
-		local 04_figure								1								// constructs figure shown in measurement note
+		local 03_table								1								// constructs table in the measurement note
+		local 04_figure								1								// constructs figure in the measurement note
 		local 05_stats								1								// for stats reported in the measurement note
 
 	
