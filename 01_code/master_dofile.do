@@ -8,9 +8,7 @@
 		* User Number:
 		
 		* Jaweria       1
-		*
-		*
-		*
+
 
 		*Set this value to the user currently using this file
 		global user  1
@@ -22,9 +20,6 @@
 			global github		"E:/GitHub/ipv_experiment"
 		}
 /*
-		if $user == 1 {
-			global github	
-		}
 
 		if $user == 2 {
 		   global github	
@@ -67,9 +62,9 @@
 		*	do file sequence
 		local 01_variable_cleaning		 			1								// cleans variables in use
 		local 02_variable_generation	 			1								// generates new variables
-		local 03_table								1								// constructs table in the measurement note
-		local 04_figure								1								// constructs figure in the measurement note
-		local 05_stats								1								// for stats reported in the measurement note
+		local 03_table								0								// constructs table in the measurement note
+		local 04_figure								0								// constructs figure in the measurement note
+		local 05_stats								0								// for stats reported in the measurement note
 
 	
 	foreach j in 	01_variable_cleaning 				///
